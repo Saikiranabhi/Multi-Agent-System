@@ -18,11 +18,11 @@ os.makedirs(REPORT_FOLDER, exist_ok=True)
 manager = PipelineManager()
 
 st.set_page_config(
-    page_title="PDF Intelligence System",
+    page_title="Multi Agent System",
     layout="wide"
 )
 
-st.title("📄 Multi-Agent PDF Intelligence System")
+st.title("📄 Multi-Agent Intelligence System")
 st.caption("Upload a PDF → Automatic Gemini Analysis → 3-Page Research Report")
 
 # -----------------------------
