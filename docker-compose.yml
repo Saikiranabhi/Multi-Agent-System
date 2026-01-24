@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  pdf_intelligence_system:
+    build: .
+    container_name: pdf_ai_agents
+    env_file:
+      - .env
+    volumes:
+      - ./storage:/app/storage
+    restart: unless-stopped
