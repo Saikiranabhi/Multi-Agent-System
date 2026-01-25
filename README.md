@@ -1,4 +1,4 @@
-# 📄 Multi-Agent PDF Intelligence System
+# 📄 Multi-Agent System
 
 > An advanced AI-powered system that automatically analyzes research papers , thesis papers and generates comprehensive multi-page reports using a multi-agent architecture powered by Google Gemini and FAISS vector search.
 
@@ -146,7 +146,7 @@ streamlit==1.35.0
 ┌─────────────────────────────────────────────────────────────────┐
 │ Step 2: Text Chunking & Embedding                               │
 ├─────────────────────────────────────────────────────────────────┤
-│ Process:                                                         │
+│ Process:                                                        │
 │  • Split text into 1200-char chunks (200 overlap)               │
 │  • Generate 384-dim embeddings per chunk                        │
 │  • Store in FAISS index                                         │
@@ -156,7 +156,7 @@ streamlit==1.35.0
 ┌─────────────────────────────────────────────────────────────────┐
 │ Step 3: Similarity Search                                       │
 ├─────────────────────────────────────────────────────────────────┤
-│ Process:                                                         │
+│ Process:                                                        │
 │  • Convert query to embedding                                   │
 │  • Search FAISS index (top-k=8)                                 │
 │  • Retrieve most relevant chunks                                │
@@ -166,14 +166,14 @@ streamlit==1.35.0
 ┌─────────────────────────────────────────────────────────────────┐
 │ Step 4: AI Analysis (Gemini 2.5)                                │
 ├─────────────────────────────────────────────────────────────────┤
-│ Analyzes:                                                        │
-│  • Research objectives                                           │
+│ Analyzes:                                                       │
+│  • Research objectives                                          │
 │  • Methodology & approach                                       │
-│  • Core contributions                                            │
-│  • Experimental evidence                                         │
+│  • Core contributions                                           │
+│  • Experimental evidence                                        │
 │  • Novelty & innovation                                         │
 │  • Strengths & weaknesses                                       │
-│  • Limitations                                                   │
+│  • Limitations                                                  │
 │  • Practical impact                                             │
 │ Output: Structured analytical breakdown                         │
 └─────────────────────────────────────────────────────────────────┘
@@ -181,7 +181,7 @@ streamlit==1.35.0
 ┌─────────────────────────────────────────────────────────────────┐
 │ Step 5: Report Generation                                       │
 ├─────────────────────────────────────────────────────────────────┤
-│ Creates:                                                         │
+│ Creates:                                                        │
 │  📘 PAGE 1 — Executive Summary                                  │
 │  📘 PAGE 2 — Technical Analysis                                 │
 │  📘 PAGE 3 — Insights & Impact                                  │
@@ -485,13 +485,7 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
+--- 
 
 ## 🙏 Acknowledgments
 
@@ -499,22 +493,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Facebook Research for FAISS
 - Sentence Transformers community
 - Streamlit for the amazing web framework
-
----
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/pdf-intelligence-system/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/pdf-intelligence-system/discussions)
-- **Email**: your.email@example.com
-
----
-
-## 📈 Stats
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/pdf-intelligence-system)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/pdf-intelligence-system)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/pdf-intelligence-system)
 
 ---
 
