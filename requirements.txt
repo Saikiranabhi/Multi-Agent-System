@@ -14,4 +14,5 @@ streamlit==1.31.1
 altair
 pandas
 streamlit
+spaces
 >>>>>>> 9632437b9cebc4c121c30023ba781edd035e9e79
