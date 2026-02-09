@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 google-generativeai==0.7.2
 sentence-transformers==2.7.0
 faiss-cpu==1.8.0
@@ -9,3 +10,8 @@ transformers==4.41.2
 python-dotenv==1.0.1
 streamlit==1.35.0
 # python==3.11.8
+=======
+altair
+pandas
+streamlit
+>>>>>>> 9632437b9cebc4c121c30023ba781edd035e9e79

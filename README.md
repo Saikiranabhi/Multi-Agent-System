@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📄 Multi-Agent System
 
 > An advanced AI-powered system that automatically analyzes research papers , thesis papers and generates comprehensive multi-page reports using a multi-agent architecture powered by Google Gemini and FAISS vector search.
@@ -497,3 +498,25 @@ Contributions are welcome! Please follow these steps:
 ---
 
 **Made with ❤️ by [Sai Kiran Tungana]**
+=======
+---
+title: AI Research Team
+emoji: 🚀
+colorFrom: red
+colorTo: red
+sdk: docker
+app_port: 8501
+tags:
+- streamlit
+pinned: false
+short_description: system that automatically analyzes research papers
+license: mit
+---
+
+# Welcome to Streamlit!
+
+Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :heart:
+
+If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
+forums](https://discuss.streamlit.io).
+>>>>>>> 9632437b9cebc4c121c30023ba781edd035e9e79
