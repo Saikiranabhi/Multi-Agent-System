@@ -40,7 +40,7 @@ The **Multi-Agent PDF Intelligence System** is a sophisticated document analysis
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                     PDF Intelligence System                      │
+│                     PDF Intelligence System                     │
 └─────────────────────────────────────────────────────────────────┘
                                  │
                                  ▼
@@ -49,7 +49,7 @@ The **Multi-Agent PDF Intelligence System** is a sophisticated document analysis
         └────────────────────────────────────────┘
                         │
         ┌───────────────┴───────────────┐
-        │      Agent Controller          │
+        │      Agent Controller         │
         └───────────────┬───────────────┘
                         │
         ┌───────────────┴───────────────────────────────┐
@@ -527,9 +527,3 @@ license: mit
 ---
 
 # Welcome to Streamlit!
-
-Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :heart:
-
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
->>>>>>> 9632437b9cebc4c121c30023ba781edd035e9e79
