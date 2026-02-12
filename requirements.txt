@@ -1,4 +1,23 @@
-<<<<<<< HEAD
+# <<<<<<< HEAD
+# google-generativeai==0.7.2
+# sentence-transformers==2.7.0
+# faiss-cpu==1.8.0
+# pypdf==4.2.0
+# langchain-text-splitters==0.2.1
+# numpy==1.26.4
+# torch==2.3.1
+# transformers==4.41.2
+# python-dotenv==1.0.1
+# streamlit==1.31.1
+# # python==3.11.8
+# =======
+# altair
+# pandas
+# streamlit
+# spaces
+# >>>>>>> 9632437b9cebc4c121c30023ba781edd035e9e79
+
+
 google-generativeai==0.7.2
 sentence-transformers==2.7.0
 faiss-cpu==1.8.0
@@ -10,9 +29,3 @@ transformers==4.41.2
 python-dotenv==1.0.1
 streamlit==1.31.1
 # python==3.11.8
-=======
-altair
-pandas
-streamlit
-spaces
->>>>>>> 9632437b9cebc4c121c30023ba781edd035e9e79
