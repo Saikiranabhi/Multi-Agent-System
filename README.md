@@ -306,6 +306,12 @@ streamlit run streamlit_app.py
 # Open http://localhost:8501
 ```
 
+**Deployed Live Demo:**
+```bash
+https://multi-agent-system-yx2r.onrender.com
+# Live Demo with Render and Cron jobs intigration
+```
+
 #### Option 2: Docker Deployment
 
 ```bash
