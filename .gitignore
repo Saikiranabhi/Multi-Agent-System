@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+storage/raw_pdfs/*
+storage/embeddings/*
+storage/reports/*
+.vscode/
+.idea/
+.DS_Store
+/venv
